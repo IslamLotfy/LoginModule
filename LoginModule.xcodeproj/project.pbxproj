@@ -14,6 +14,10 @@
 		AD5FBC582757617A00B3B301 /* LoginModuleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5FBC572757617A00B3B301 /* LoginModuleTests.swift */; };
 		AD5FBC622757617A00B3B301 /* LoginModuleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5FBC612757617A00B3B301 /* LoginModuleUITests.swift */; };
 		AD5FBC642757617A00B3B301 /* LoginModuleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5FBC632757617A00B3B301 /* LoginModuleUITestsLaunchTests.swift */; };
+		ADFF81A12761F69D00C11955 /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADFF81A02761F69D00C11955 /* Exercise.swift */; };
+		ADFF81A32761F7B400C11955 /* ExerciseDS.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADFF81A22761F7B400C11955 /* ExerciseDS.swift */; };
+		ADFF81A5276205EA00C11955 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADFF81A4276205EA00C11955 /* HomeView.swift */; };
+		ADFF81A7276208D800C11955 /* ExerciseRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADFF81A6276208D800C11955 /* ExerciseRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		AD5FBC5D2757617A00B3B301 /* LoginModuleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoginModuleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD5FBC612757617A00B3B301 /* LoginModuleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModuleUITests.swift; sourceTree = "<group>"; };
 		AD5FBC632757617A00B3B301 /* LoginModuleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModuleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		ADFF81A02761F69D00C11955 /* Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
+		ADFF81A22761F7B400C11955 /* ExerciseDS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseDS.swift; sourceTree = "<group>"; };
+		ADFF81A4276205EA00C11955 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		ADFF81A6276208D800C11955 /* ExerciseRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +82,7 @@
 		AD5FBC3A2757617900B3B301 = {
 			isa = PBXGroup;
 			children = (
+				ADFF819F2761EE1800C11955 /* HomeModule */,
 				AD5FBC452757617900B3B301 /* LoginModule */,
 				AD5FBC562757617A00B3B301 /* LoginModuleTests */,
 				AD5FBC602757617A00B3B301 /* LoginModuleUITests */,
@@ -125,6 +134,17 @@
 				AD5FBC632757617A00B3B301 /* LoginModuleUITestsLaunchTests.swift */,
 			);
 			path = LoginModuleUITests;
+			sourceTree = "<group>";
+		};
+		ADFF819F2761EE1800C11955 /* HomeModule */ = {
+			isa = PBXGroup;
+			children = (
+				ADFF81A02761F69D00C11955 /* Exercise.swift */,
+				ADFF81A22761F7B400C11955 /* ExerciseDS.swift */,
+				ADFF81A4276205EA00C11955 /* HomeView.swift */,
+				ADFF81A6276208D800C11955 /* ExerciseRow.swift */,
+			);
+			path = HomeModule;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +278,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD5FBC492757617900B3B301 /* ContentView.swift in Sources */,
+				ADFF81A12761F69D00C11955 /* Exercise.swift in Sources */,
+				ADFF81A32761F7B400C11955 /* ExerciseDS.swift in Sources */,
+				ADFF81A5276205EA00C11955 /* HomeView.swift in Sources */,
+				ADFF81A7276208D800C11955 /* ExerciseRow.swift in Sources */,
 				AD5FBC472757617900B3B301 /* LoginModuleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
