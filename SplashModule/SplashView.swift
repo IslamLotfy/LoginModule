@@ -18,8 +18,8 @@ struct SplashView: View {
             else{
                 Image("launcher")
                     .resizable()
+                    .transition(AnyTransition.scale.animation(.linear))
                     .frame(width: 300, height: 300)
-                    .transition(AnyTransition.scale.animation(.easeIn))
             }
         }.onAppear {
             DispatchQueue.main.asyncAfter(deadline: .now() + 2.5) {
