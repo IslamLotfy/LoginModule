@@ -11,7 +11,7 @@ import SwiftUI
 struct LoginModuleApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SplashView()
         }
     }
 }

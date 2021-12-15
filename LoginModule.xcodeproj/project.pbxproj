@@ -8,13 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		AD5FBC472757617900B3B301 /* LoginModuleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5FBC462757617900B3B301 /* LoginModuleApp.swift */; };
-		AD5FBC492757617900B3B301 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5FBC482757617900B3B301 /* ContentView.swift */; };
+		AD5FBC492757617900B3B301 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5FBC482757617900B3B301 /* LoginView.swift */; };
 		AD5FBC4B2757617A00B3B301 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD5FBC4A2757617A00B3B301 /* Assets.xcassets */; };
 		AD5FBC4E2757617A00B3B301 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD5FBC4D2757617A00B3B301 /* Preview Assets.xcassets */; };
 		AD5FBC582757617A00B3B301 /* LoginModuleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5FBC572757617A00B3B301 /* LoginModuleTests.swift */; };
 		AD5FBC622757617A00B3B301 /* LoginModuleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5FBC612757617A00B3B301 /* LoginModuleUITests.swift */; };
 		AD5FBC642757617A00B3B301 /* LoginModuleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5FBC632757617A00B3B301 /* LoginModuleUITestsLaunchTests.swift */; };
 		AD6935182763A97E006AF257 /* ExerciseDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6935172763A97E006AF257 /* ExerciseDetailsView.swift */; };
+		AD696A4F2769DFE70083366D /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD696A4E2769DFE70083366D /* SplashView.swift */; };
 		ADFF81A12761F69D00C11955 /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADFF81A02761F69D00C11955 /* Exercise.swift */; };
 		ADFF81A32761F7B400C11955 /* ExerciseDS.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADFF81A22761F7B400C11955 /* ExerciseDS.swift */; };
 		ADFF81A5276205EA00C11955 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADFF81A4276205EA00C11955 /* HomeView.swift */; };
@@ -41,7 +42,7 @@
 /* Begin PBXFileReference section */
 		AD5FBC432757617900B3B301 /* LoginModule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginModule.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD5FBC462757617900B3B301 /* LoginModuleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModuleApp.swift; sourceTree = "<group>"; };
-		AD5FBC482757617900B3B301 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AD5FBC482757617900B3B301 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		AD5FBC4A2757617A00B3B301 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD5FBC4D2757617A00B3B301 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AD5FBC532757617A00B3B301 /* LoginModuleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoginModuleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -50,6 +51,7 @@
 		AD5FBC612757617A00B3B301 /* LoginModuleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModuleUITests.swift; sourceTree = "<group>"; };
 		AD5FBC632757617A00B3B301 /* LoginModuleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModuleUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		AD6935172763A97E006AF257 /* ExerciseDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseDetailsView.swift; sourceTree = "<group>"; };
+		AD696A4E2769DFE70083366D /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
 		ADFF81A02761F69D00C11955 /* Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
 		ADFF81A22761F7B400C11955 /* ExerciseDS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseDS.swift; sourceTree = "<group>"; };
 		ADFF81A4276205EA00C11955 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -84,6 +86,7 @@
 		AD5FBC3A2757617900B3B301 = {
 			isa = PBXGroup;
 			children = (
+				AD696A4D2769DFC90083366D /* SplashModule */,
 				ADFF819F2761EE1800C11955 /* HomeModule */,
 				AD5FBC452757617900B3B301 /* LoginModule */,
 				AD5FBC562757617A00B3B301 /* LoginModuleTests */,
@@ -106,7 +109,7 @@
 			isa = PBXGroup;
 			children = (
 				AD5FBC462757617900B3B301 /* LoginModuleApp.swift */,
-				AD5FBC482757617900B3B301 /* ContentView.swift */,
+				AD5FBC482757617900B3B301 /* LoginView.swift */,
 				AD5FBC4A2757617A00B3B301 /* Assets.xcassets */,
 				AD5FBC4C2757617A00B3B301 /* Preview Content */,
 			);
@@ -136,6 +139,14 @@
 				AD5FBC632757617A00B3B301 /* LoginModuleUITestsLaunchTests.swift */,
 			);
 			path = LoginModuleUITests;
+			sourceTree = "<group>";
+		};
+		AD696A4D2769DFC90083366D /* SplashModule */ = {
+			isa = PBXGroup;
+			children = (
+				AD696A4E2769DFE70083366D /* SplashView.swift */,
+			);
+			path = SplashModule;
 			sourceTree = "<group>";
 		};
 		ADFF819F2761EE1800C11955 /* HomeModule */ = {
@@ -280,7 +291,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD5FBC492757617900B3B301 /* ContentView.swift in Sources */,
+				AD5FBC492757617900B3B301 /* LoginView.swift in Sources */,
+				AD696A4F2769DFE70083366D /* SplashView.swift in Sources */,
 				ADFF81A12761F69D00C11955 /* Exercise.swift in Sources */,
 				ADFF81A32761F7B400C11955 /* ExerciseDS.swift in Sources */,
 				ADFF81A5276205EA00C11955 /* HomeView.swift in Sources */,

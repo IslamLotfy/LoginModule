@@ -11,9 +11,23 @@ import SwiftUI
 struct HomeView: View{
     var exercises = getExerciseList()
     var body: some View {
-            List(exercises,id: \.id){ exercise in
-                 ExerciseRowView(exercise: exercise)
+        VStack{
+            NavigationView{
+                List(exercises,id: \.id){ exe in
+                    NavigationLink {
+                        ExerciseDetailsView(exercise: exe)
+                            .navigationTitle(exe.name)
+                            .navigationBarTitleDisplayMode(.inline)
+                        
+                    } label: {
+                        ExerciseRowView(exercise: exe)
+                    }
+                    .navigationTitle("My Daily Exercises")
+                    .navigationBarTitleDisplayMode(.inline)
+                    .navigationBarBackButtonHidden(true)
+                }
             }
+        }.edgesIgnoringSafeArea(.all)
     }
 }
 
