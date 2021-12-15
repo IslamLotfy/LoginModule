@@ -14,10 +14,11 @@
 		AD5FBC582757617A00B3B301 /* LoginModuleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5FBC572757617A00B3B301 /* LoginModuleTests.swift */; };
 		AD5FBC622757617A00B3B301 /* LoginModuleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5FBC612757617A00B3B301 /* LoginModuleUITests.swift */; };
 		AD5FBC642757617A00B3B301 /* LoginModuleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5FBC632757617A00B3B301 /* LoginModuleUITestsLaunchTests.swift */; };
+		AD6935182763A97E006AF257 /* ExerciseDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6935172763A97E006AF257 /* ExerciseDetailsView.swift */; };
 		ADFF81A12761F69D00C11955 /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADFF81A02761F69D00C11955 /* Exercise.swift */; };
 		ADFF81A32761F7B400C11955 /* ExerciseDS.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADFF81A22761F7B400C11955 /* ExerciseDS.swift */; };
 		ADFF81A5276205EA00C11955 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADFF81A4276205EA00C11955 /* HomeView.swift */; };
-		ADFF81A7276208D800C11955 /* ExerciseRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADFF81A6276208D800C11955 /* ExerciseRow.swift */; };
+		ADFF81A7276208D800C11955 /* ExerciseRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADFF81A6276208D800C11955 /* ExerciseRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,10 +49,11 @@
 		AD5FBC5D2757617A00B3B301 /* LoginModuleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoginModuleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD5FBC612757617A00B3B301 /* LoginModuleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModuleUITests.swift; sourceTree = "<group>"; };
 		AD5FBC632757617A00B3B301 /* LoginModuleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModuleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AD6935172763A97E006AF257 /* ExerciseDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseDetailsView.swift; sourceTree = "<group>"; };
 		ADFF81A02761F69D00C11955 /* Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
 		ADFF81A22761F7B400C11955 /* ExerciseDS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseDS.swift; sourceTree = "<group>"; };
 		ADFF81A4276205EA00C11955 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
-		ADFF81A6276208D800C11955 /* ExerciseRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseRow.swift; sourceTree = "<group>"; };
+		ADFF81A6276208D800C11955 /* ExerciseRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,7 +144,8 @@
 				ADFF81A02761F69D00C11955 /* Exercise.swift */,
 				ADFF81A22761F7B400C11955 /* ExerciseDS.swift */,
 				ADFF81A4276205EA00C11955 /* HomeView.swift */,
-				ADFF81A6276208D800C11955 /* ExerciseRow.swift */,
+				ADFF81A6276208D800C11955 /* ExerciseRowView.swift */,
+				AD6935172763A97E006AF257 /* ExerciseDetailsView.swift */,
 			);
 			path = HomeModule;
 			sourceTree = "<group>";
@@ -281,8 +284,9 @@
 				ADFF81A12761F69D00C11955 /* Exercise.swift in Sources */,
 				ADFF81A32761F7B400C11955 /* ExerciseDS.swift in Sources */,
 				ADFF81A5276205EA00C11955 /* HomeView.swift in Sources */,
-				ADFF81A7276208D800C11955 /* ExerciseRow.swift in Sources */,
+				ADFF81A7276208D800C11955 /* ExerciseRowView.swift in Sources */,
 				AD5FBC472757617900B3B301 /* LoginModuleApp.swift in Sources */,
+				AD6935182763A97E006AF257 /* ExerciseDetailsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

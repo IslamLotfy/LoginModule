@@ -11,11 +11,9 @@ import SwiftUI
 struct HomeView: View{
     var exercises = getExerciseList()
     var body: some View {
-        VStack{
             List(exercises,id: \.id){ exercise in
-                 ExerciseRow(exercise: exercise)
-            }.frame(width:UIScreen.main.bounds.width)
-        }.edgesIgnoringSafeArea(.all)
+                 ExerciseRowView(exercise: exercise)
+            }
     }
 }
 
